@@ -1,0 +1,23 @@
+.titleSpan{
+    color: rgb(0, 195, 255);
+}
+
+.RepContainer{
+    height: 60%;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+p{
+    text-align: left
+}
+
+.closeDiv{
+    align-items: center;
+    text-align: center;
+}
+
+.closeBtn{
+    margin-top: 5px;
+}

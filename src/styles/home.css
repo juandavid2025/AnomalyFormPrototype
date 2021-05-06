@@ -1,0 +1,18 @@
+.container{
+    padding-top: 40px;
+}
+
+.actionBtn{
+    margin: 2px;
+}
+
+.closeBtn{
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.closeDiv{
+    align-items: center;
+    text-align: center;
+}
