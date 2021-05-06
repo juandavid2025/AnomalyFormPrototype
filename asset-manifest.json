@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/AnomalyFormPrototype/static/css/main.757939ad.chunk.css",
+    "main.js": "/AnomalyFormPrototype/static/js/main.ed5ffe83.chunk.js",
+    "main.js.map": "/AnomalyFormPrototype/static/js/main.ed5ffe83.chunk.js.map",
+    "runtime-main.js": "/AnomalyFormPrototype/static/js/runtime-main.63e9eb51.js",
+    "runtime-main.js.map": "/AnomalyFormPrototype/static/js/runtime-main.63e9eb51.js.map",
+    "static/css/2.01ca705e.chunk.css": "/AnomalyFormPrototype/static/css/2.01ca705e.chunk.css",
+    "static/js/2.a0d80a3b.chunk.js": "/AnomalyFormPrototype/static/js/2.a0d80a3b.chunk.js",
+    "static/js/2.a0d80a3b.chunk.js.map": "/AnomalyFormPrototype/static/js/2.a0d80a3b.chunk.js.map",
+    "static/js/3.8f01e67e.chunk.js": "/AnomalyFormPrototype/static/js/3.8f01e67e.chunk.js",
+    "static/js/3.8f01e67e.chunk.js.map": "/AnomalyFormPrototype/static/js/3.8f01e67e.chunk.js.map",
+    "index.html": "/AnomalyFormPrototype/index.html",
+    "static/css/2.01ca705e.chunk.css.map": "/AnomalyFormPrototype/static/css/2.01ca705e.chunk.css.map",
+    "static/css/main.757939ad.chunk.css.map": "/AnomalyFormPrototype/static/css/main.757939ad.chunk.css.map",
+    "static/js/2.a0d80a3b.chunk.js.LICENSE.txt": "/AnomalyFormPrototype/static/js/2.a0d80a3b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63e9eb51.js",
+    "static/css/2.01ca705e.chunk.css",
+    "static/js/2.a0d80a3b.chunk.js",
+    "static/css/main.757939ad.chunk.css",
+    "static/js/main.ed5ffe83.chunk.js"
+  ]
+}
