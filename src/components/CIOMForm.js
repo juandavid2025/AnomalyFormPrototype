@@ -17,6 +17,7 @@ export default class CIOMForm extends Component {
             notiDate:{value:notiDate, correct:false, touched:false},
 
             //-----------Input Validation---------
+            allCorrectToSave:false
         }
     }
 
@@ -46,6 +47,7 @@ export default class CIOMForm extends Component {
         newInput.touched=true;
         newInput.value = value;
         this.setState({[name]:newInput});
+        //this.checkAllCorrect();
     }
 
     handleSubmit=(e)=>{
@@ -70,7 +72,6 @@ export default class CIOMForm extends Component {
         let newInputDate = {...this.state.notiDate, value:date, correct:date!=null, touched:true};
 
         this.setState({notiDate:newInputDate});
-       
     }
     
     render() {
@@ -121,7 +122,7 @@ export default class CIOMForm extends Component {
     }
 
     checkAllCorrect(){
-        if(this.state.correctCOD && this.state.correctRepoCountry && this.state.correctRepoYear && this.state.correctEvent && this.state.correctCIOMState && this.state.correctNotiDate){
+        if(this.state.cod.correct && this.state.reportCountry.correct && this.state.RepoYear.correct && this.state.event.correct && this.state.ciomState.correct){
             this.setState({allCorrectToSave:true});
         }
         else{

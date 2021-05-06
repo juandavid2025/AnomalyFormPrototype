@@ -28,7 +28,7 @@ export default class Home extends Component {
         this.state.db.collection("reporte").get().then( querySnapshot =>{
             querySnapshot.forEach( doc => {
                 reports.push(doc.data());
-                console.log(doc.data());
+                //console.log(doc.data());
             })
             reports.forEach(rep => rep.sendDate=new Date(rep.sendDate.seconds*1000));
             this.setState({reports});
@@ -46,7 +46,7 @@ export default class Home extends Component {
         if(reportAdd.id === ""){
             let id = parseInt(this.getId()) + 1;
             reportAdd.id = id+"";
-            console.log(id);
+            //console.log(id);
         }
         this.state.db.collection("reporte").doc(reportAdd.id).set(reportAdd);
         this.getReports();

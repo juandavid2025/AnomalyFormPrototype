@@ -1,6 +1,6 @@
 {
-  "homepage": "http://juandavid2025.github.io/AnomalyFormPrototype",
   "name": "prototype",
+  "homepage": "http://juandavid2025.github.io/AnomalyFormPrototype/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
