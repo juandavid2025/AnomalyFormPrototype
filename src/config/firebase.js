@@ -1,16 +1,16 @@
 import firebase from "firebase/app";
-import 'firebase/firestore';
+import "firebase/firestore";
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyCa2sbQ0HRxelXKBUPApHc_FMacDvl4F5o",
-    authDomain: "report-prototype.firebaseapp.com",
-    projectId: "report-prototype",
-    storageBucket: "report-prototype.appspot.com",
-    messagingSenderId: "1022968365167",
-    appId: "1:1022968365167:web:0de10bec101858f3cb4d9a"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+  apiKey: "AIzaSyBMS-_HRPRRbAtPcOHJO5lF_w5ANP3t6J4",
+  authDomain: "anomalyformprot.firebaseapp.com",
+  projectId: "anomalyformprot",
+  storageBucket: "anomalyformprot.appspot.com",
+  messagingSenderId: "67995275234",
+  appId: "1:67995275234:web:f60e4ecce4ba9030bdf3bb",
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 export default firebase;
